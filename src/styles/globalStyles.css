@@ -10,3 +10,29 @@
   --color-alert: #c22554;
   --font-primary: "Inter", sans-serif;
 }
+
+body{
+  width: 100%;
+}
+
+.body__profile{
+  background-color: var(--color-grey-1);
+  width: 100%;
+}
+
+.main__profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bady__error{
+  background-color: var(--color-grey-1);
+  width: 100%;
+}
+
+.main__error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,54 @@
+.titleLeft{
+    display: flex;
+    font-size: 32px;
+    height: 50%;
+    align-items: center;
+}
+.paragrafLeft{
+    font-size: 20px;
+    height: 50%;
+}
+
+.titleRight{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.paragrafRight{
+    height: 30px;
+    font-size: 24px;
+}
+
+.h2User{
+    padding: 12px;
+}
+
+.titleRepos{
+    width: 100%;
+    height: 80px;
+    color: var(--color-grey-7);
+}
+.paragrafRepos{
+    width: 100%;
+    height: 80px;
+    color: var(--color-grey-6);
+}
+
+.h1ErrorLeft{
+    display: flex;
+    width: 120px;
+    height: 80px;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-grey-7);
+}
+
+.paragraErrorfLeft{
+    width: 70%;
+    height: 80px;
+    font-size: 20px;
+    color: var(--color-grey-7);
+}

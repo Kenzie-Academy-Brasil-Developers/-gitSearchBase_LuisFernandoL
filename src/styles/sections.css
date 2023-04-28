@@ -1,0 +1,19 @@
+.main__section{
+    display: flex;
+    flex-direction: row;
+}
+
+.sectonProfile{
+    width: 70%;
+    margin-top: 50px;
+}
+
+.sectionError{
+    width: 70%;
+    height: 900px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

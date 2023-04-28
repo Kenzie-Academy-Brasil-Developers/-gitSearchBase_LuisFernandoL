@@ -1,0 +1,43 @@
+.buttonRight{
+    height: 30px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+.btnAnotherUser{
+    width: 150px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+.btnOpenRepos{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--color-grey-7);
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-7);
+    cursor: pointer;
+}
+
+.btnOpenRepos:focus{
+    background-color: var(--color-brand-2);
+}
+
+.btnError{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: var(--color-brand-2);
+    color: var(--color-grey-7);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 24px;
+}

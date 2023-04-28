@@ -1,0 +1,58 @@
+.divLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-7);
+}
+
+.divRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-7);
+}
+
+.divLeftInternal{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 60%;
+}
+
+.divRightInternal
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 50%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    color: var(--color-grey-7);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hendlePage{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px;
+}
+
+.divErrorleft{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+}
