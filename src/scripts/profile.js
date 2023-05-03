@@ -40,7 +40,7 @@ function createPageProfile (name, repo){
         const btnOpenRepos = document.createElement ('button');
         
         titleRepos.innerText = element.name;
-        paragrafRepos.innerText = element.full_name;
+        paragrafRepos.innerText = element.description;
         btnOpenRepos.innerHTML = "Repositório"
         ulRepos.classList.add('ulRepos');
         liRepos.classList.add('liRepos');
