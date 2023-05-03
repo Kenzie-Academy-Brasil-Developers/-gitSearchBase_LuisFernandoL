@@ -25,10 +25,11 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var( --color-grey-2);
 }
 
 .bady__error{
-  background-color: var(--color-grey-1);
+  background-color: var(--color-grey-2);
   width: 100%;
 }
 
