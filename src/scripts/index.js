@@ -1,4 +1,3 @@
-import { renderPageError } from "./error.js"
 
 export async function nameUsersSearch(name){
     const nameUser = await fetch (`https://api.github.com/users/${name}`,{
@@ -54,6 +53,7 @@ export function indexSearch(){
     paragrafRight.innerText = 'Usuário github';
     buttonRight.innerText = 'Ver perfil do github';
 
+    inputRight.placeholder = "Digite um usuário do github aqui...";
     divLeft.classList.add('divLeft');
     divLeftInternal.classList.add('divLeftInternal');
     titleLeft.classList.add('titleLeft');
@@ -78,7 +78,6 @@ export function indexSearch(){
 
 indexSearch();
 renderSearch();
-renderPageError();
 
 
 

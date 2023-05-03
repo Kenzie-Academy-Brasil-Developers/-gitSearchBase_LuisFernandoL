@@ -27,8 +27,10 @@
     sectionError.append(divErrorleft, imgRight);
    
     mainError.appendChild(sectionError);
-    
+    handleUserBack();
  };
+ renderPageError();
+
 
  function handleUserBack (){
    const btnAnother = document.querySelector('.btnError')
@@ -38,5 +40,6 @@
        location.replace('../../');
    
    })
-};
+}
+
 

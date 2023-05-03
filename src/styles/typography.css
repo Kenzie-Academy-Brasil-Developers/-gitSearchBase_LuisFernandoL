@@ -1,11 +1,11 @@
 .titleLeft{
     display: flex;
-    font-size: 32px;
+    font-size: 48px;
     height: 50%;
     align-items: center;
 }
 .paragrafLeft{
-    font-size: 20px;
+    font-size: 30px;
     height: 50%;
 }
 
@@ -18,22 +18,26 @@
 
 .paragrafRight{
     height: 30px;
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .h2User{
     padding: 12px;
+    font-size: 24px;
 }
 
 .titleRepos{
     width: 100%;
     height: 80px;
     color: var(--color-grey-7);
+    font-size: 24px;
 }
 .paragrafRepos{
     width: 100%;
     height: 80px;
     color: var(--color-grey-6);
+    font-size: 21px;
+
 }
 
 .h1ErrorLeft{
@@ -41,7 +45,7 @@
     width: 120px;
     height: 80px;
     align-items: center;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 600;
     color: var(--color-grey-7);
 }
@@ -51,4 +55,5 @@
     height: 80px;
     font-size: 20px;
     color: var(--color-grey-7);
+    font-size: 16px;
 }

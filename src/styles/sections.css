@@ -1,6 +1,7 @@
 .main__section{
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 .sectonProfile{

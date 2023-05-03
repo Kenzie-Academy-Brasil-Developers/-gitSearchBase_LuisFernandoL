@@ -1,4 +1,8 @@
 .inputRight{
-    height: 24px;
+    height: 38px;
     margin: 12px 0;
+    background-color: var(--color-grey-1);
+    border-radius: 4px;
+    color: var(--color-grey-7);
+    
 }
